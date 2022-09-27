@@ -1,6 +1,6 @@
 {
   "name": "@weadf/clever-passport",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Passport strategy for Instant Login with Clever",
   "main": "lib/index.js",
   "scripts": {

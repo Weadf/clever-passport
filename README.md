@@ -14,7 +14,7 @@ This module is a version of [weadf passport-clever](https://github.com/Weadf/pas
 
 ## Installation
 
-Install the package via npm: `npm install `
+Install the package via npm: `npm install @weadf/clever-passport`
 
 ## Usage
 

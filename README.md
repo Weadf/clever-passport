@@ -8,11 +8,13 @@
 
 Passport strategy for Instant Login with Clever
 
-This module is a version of [raclim's passport-clever](https://github.com/raclim/passport-clever), with tons of bug fixes.
+This module is fork [raclim's passport-clever](https://github.com/milanmdev/passport-clever), with tons of bug fixes.
+
+This module is a version of [weadf passport-clever](https://github.com/Weadf/passport-clever)
 
 ## Installation
 
-Install the package via npm: `npm install clever-passport`
+Install the package via npm: `npm install `
 
 ## Usage
 
@@ -54,4 +56,4 @@ app.get("/callback", passport.authenticate("clever", { failureRedirect: "/login"
 
 ## Disclaimer
 
-This repository is NOT developed or endorsed by Clever. This library is here to help users easily integrate Clever's Instant Login API to their Node.js projects. All questions about the API should be taken to [Clever Support](https://support.clever.com/hc/s/?language=en_US) and all questions about this library should be taken to [milanmdev](mailto:milanmdev@gmail.com).
+This repository is NOT developed or endorsed by Clever. This library is here to help users easily integrate Clever's Instant Login API to their Node.js projects. All questions about the API should be taken to [Clever Support](https://support.clever.com/hc/s/?language=en_US).

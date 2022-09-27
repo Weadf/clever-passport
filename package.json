@@ -1,6 +1,6 @@
 {
-  "name": "clever-passport",
-  "version": "0.0.1",
+  "name": "@weadf/clever-passport",
+  "version": "0.0.0",
   "description": "Passport strategy for Instant Login with Clever",
   "main": "lib/index.js",
   "scripts": {
@@ -23,9 +23,12 @@
   },
   "homepage": "https://github.com/Weadf/clever-passport#readme",
   "dependencies": {
-    "clever-passport": "^1.0.3",
+    "@weadf/clever-passport": "^0.0.1",
     "node-fetch": "^2.6.0",
     "passport-oauth2": "^1.5.0",
     "querystring": "^0.2.0"
+  },
+  "directories": {
+    "lib": "lib"
   }
 }
